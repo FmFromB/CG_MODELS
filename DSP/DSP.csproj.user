@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Analyzer.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Balance_curve.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ChannelAnalyzer.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Enter.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Exponent_curve.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Exponent_enter.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Impulse.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Jump.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Linear.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="OSC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="oscillogram.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Sine_enter.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="square_enter.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Tonal Modulation.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WN_1.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WN_2.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Analyzer.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Balance_curve.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Enter.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Exponent_curve.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Exponent_enter.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Impulse.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Jump.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Linear.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="OSC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="oscillogram.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Signal_information.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ChannelAnalyzer.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Sine_enter.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="square_enter.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Tonal Modulation.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WN_1.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WN_2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

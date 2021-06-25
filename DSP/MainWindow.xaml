@@ -1,0 +1,52 @@
+﻿<Window x:Class="DSP.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DSP"
+        mc:Ignorable="d"
+        Title="DSP-Matyushinets" MinHeight="550" MinWidth="850">
+    <Grid Background="#6699CC">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Menu Height="25" VerticalAlignment="Top">
+                <MenuItem Header="Файл">
+                    <MenuItem Header="Открыть" Click="loading_file"/>
+                    <Separator/>
+                    <MenuItem Header="Сохранить" Click="save_file"/>
+                    <Separator/>
+                    <MenuItem Header="Выход" />
+                </MenuItem>
+                <MenuItem Header="Моделирование" ></MenuItem>
+                <MenuItem Header="Фильтрация" ></MenuItem>
+                <MenuItem Header="Анализ" ></MenuItem>
+                <MenuItem Header="Настройки" ></MenuItem>
+                <MenuItem Header="Справка" ></MenuItem>
+                <MenuItem Header="Инструменты" >
+                    <MenuItem Header="Информация о сигнале" Click="signal_information" />
+                </MenuItem>
+                <MenuItem Header="Моделирование сигнала" Name="oscillograms">
+                    <MenuItem Header="Пила" Click="show_saw_enter"></MenuItem>
+                    <MenuItem Header="Меандр" Click="show_square_enter"></MenuItem>
+                    <MenuItem Header="Экспонента" Click="show_exponent_enter"></MenuItem>
+                    <MenuItem Header="Синусоида (Саб бас кста)" Click="show_sine_enter"></MenuItem>
+                    <MenuItem Header="Импульс" Click="show_impulse_enter"></MenuItem>
+                    <MenuItem Header="Скачок" Click="show_jump_enter"></MenuItem>
+                    <MenuItem Header="Cигнал с экспоненциальной огибающей" Click="show_exp_curve_enter"></MenuItem>
+                    <MenuItem Header="Cигнал с балансной огибающей" Click="show_balance_curve_enter"></MenuItem>
+                    <MenuItem Header="Cигнал с тональной огибающей" Click="show_tonal_curve_enter"></MenuItem>
+                    <MenuItem Header="ЛЧМ - сигнал" Click="show_linear"></MenuItem>
+                    <Separator/>
+                    <MenuItem Header="Равномерный белый шум" Click="show_WN1"></MenuItem>
+                    <MenuItem Header="Нормальный белый шум" Click="show_WN2"></MenuItem>
+                </MenuItem>
+            </Menu>
+        </Grid>
+        <Grid Grid.Row="1" Background="#666666" Margin="3, 0">
+            <TextBlock x:Name="text"/>
+        </Grid>
+    </Grid>
+</Window>
